@@ -6,9 +6,9 @@
 const portfolioData = [
     // Fotografia (6 imagens)
     { id: 1, category: 'fotografia', src: 'images/nic-02.jpeg', title: 'Paisagem Cinematográfica' },
-    { id: 2, category: 'fotografia', src: 'images/IMG_7993.jpg', title: 'Arquitetura Urbana' },
-    { id: 3, category: 'fotografia', src: 'images/IMG_1682.jpg', title: 'Retrato Profissional' },
-    { id: 4, category: 'fotografia', src: 'images/Tibagi-Guartelá-147.JPG', title: 'Detalhe da Natureza' },
+    { id: 2, category: 'fotografia', src: 'images/col-estadual-pr.JPEG', title: 'Arquitetura Urbana' },
+    { id: 3, category: 'fotografia', src: 'images/mi-04.JPG', title: 'Retrato Profissional' },
+    { id: 4, category: 'fotografia', src: 'images/paisagem-05.JPEG', title: 'Detalhe da Natureza' },
     { id: 5, category: 'fotografia', src: 'images/Tibagi-Guartelá-276.jpg', title: 'Fotografia de Rua' },
     { id: 31, category: 'fotografia', src: 'images/publico-01.jpeg', title: 'Fotografia Lifestyle' },
     
@@ -40,7 +40,7 @@ const portfolioData = [
     { id: 21, category: 'corporativo', src: 'images/portfolio-20-corporate-team.jpg', title: 'Time Corporativo' },
     { id: 22, category: 'corporativo', src: 'images/zenzen-01.jpeg', title: 'Espaço Criativo' },
     { id: 23, category: 'corporativo', src: 'images/zenzen-02.jpeg', title: 'Fotografia de Produto' },
-    { id: 35, category: 'corporativo', src: 'images/IMG_3323.jpg', title: 'Reunião Corporativa' },
+    { id: 35, category: 'corporativo', src: 'images/IMG_3323.JPG', title: 'Reunião Corporativa' },
     { id: 29, category: 'corporativo', src: 'images/DSC06777.jpg', title: 'Produção Corporativa' },
     { id: 23, category: 'corporativo', src: 'images/zenzen-03.jpeg', title: 'Suite de Edição' },
     
