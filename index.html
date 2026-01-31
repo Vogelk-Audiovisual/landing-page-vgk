@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="VOGEL-K Produção Audiovisual - Transformamos suas ideias em produções audiovisuais de impacto"
+    />
+    <meta
+      name="keywords"
+      content="produção audiovisual, fotografia, vídeo, drone, imobiliário, corporativo"
+    />
+    <title>VOGEL-K | Produção Audiovisual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header/Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-content">
+            <div class="logo">
+              <img src="images/logo.png" alt="VOGEL-K Logo" class="logo-img" />
+              <div class="logo-text">
+                <h1>VOGEL-K</h1>
+                <p>Produção Audiovisual</p>
+              </div>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+              <li><a href="#servicos" class="nav-link">Serviços</a></li>
+              <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+              <li><a href="#sobre" class="nav-link">Sobre</a></li>
+              <li>
+                <a href="#contato" class="nav-link" class="btn-contato"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-background"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-title">
+              <h2><span class="highlight">Visão em</span><br />Movimento</h2>
+              <p>
+                Transformamos suas ideias em produções audiovisuais de impacto.
+                Com expertise em fotografia, videografia, drone e tecnologia IA,
+                criamos conteúdo que conta histórias memoráveis.
+              </p>
+            </div>
+
+            <div class="hero-buttons">
+              <button
+                class="btn btn-primary"
+                onclick="scrollToSection('portfolio')"
+              >
+                Ver Portfólio
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+              <button
+                class="btn btn-secondary"
+                onclick="scrollToSection('contato')"
+              >
+                Solicitar Orçamento
+              </button>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat">
+                <p class="stat-number">5+</p>
+                <p class="stat-label">Projetos Realizados</p>
+              </div>
+              <div class="stat">
+                <p class="stat-number">100%</p>
+                <p class="stat-label">Satisfação de Clientes</p>
+              </div>
+              <div class="stat">
+                <p class="stat-number">1+</p>
+                <p class="stat-label">Ano de Experiência</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="images/portfolio-01-cinematic-landscape.jpg"
+              alt="Produção audiovisual profissional"
+            />
+            <div class="hero-image-overlay"></div>
+            <div class="hero-image-caption">
+              <p>Produção Profissional</p>
+              <h3>Qualidade Cinema</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nossos <span class="highlight">Serviços</span></h2>
+          <p>
+            Oferecemos soluções completas em produção audiovisual para atender
+            todas as suas necessidades criativas.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">📷</div>
+            <h3>Fotografia</h3>
+            <p>
+              Captura de imagens profissionais com qualidade cinematográfica.
+              Desde retratos até paisagens, cada foto conta uma história.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎬</div>
+            <h3>Vídeos</h3>
+            <p>
+              Produção de vídeos de alta qualidade com edição profissional.
+              Transformamos conceitos em narrativas visuais impactantes.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🚁</div>
+            <h3>Drone</h3>
+            <p>
+              Filmagens aéreas com drone para perspectivas únicas. Perfeito para
+              acompanhamento de obras e vídeos imobiliários.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🏠</div>
+            <h3>Imobiliário</h3>
+            <p>
+              Fotos e vídeos especializados para propriedades. Apresentamos
+              imóveis da melhor forma para atrair compradores.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">💼</div>
+            <h3>Corporativo</h3>
+            <p>
+              Conteúdo profissional para empresas. Vídeos institucionais,
+              depoimentos e materiais de marketing de qualidade.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎉</div>
+            <h3>Eventos</h3>
+            <p>
+              Cobertura completa de eventos. Shows, festas, aniversários e
+              celebrações capturadas com profissionalismo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nosso <span class="highlight">Portfólio</span></h2>
+          <p>
+            Explore uma seleção de nossos trabalhos mais recentes. Cada projeto
+            representa nosso compromisso com excelência e inovação.
+          </p>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="todos">Todos</button>
+          <button class="filter-btn" data-filter="fotografia">
+            Fotografia
+          </button>
+          <button class="filter-btn" data-filter="videos">Vídeos</button>
+          <button class="filter-btn" data-filter="drone">Drone</button>
+          <button class="filter-btn" data-filter="imobiliario">
+            Imobiliário
+          </button>
+          <button class="filter-btn" data-filter="corporativo">
+            Corporativo
+          </button>
+          <button class="filter-btn" data-filter="eventos">Eventos</button>
+          <button class="filter-btn" data-filter="gastronomia">
+            Gastronomia
+          </button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+      <div class="container">
+        <!-- VOGEL-K Section -->
+        <div class="about-section">
+          <div class="about-content">
+            <div class="about-text">
+              <h2><span class="highlight">VOGEL-K</span></h2>
+              <div class="about-paragraphs">
+                <p>
+                  Criar também é um ato coletivo; nasce do afeto, da troca e,
+                  principalmente, da confiança.
+                </p>
+                <p>
+                  É desse lugar que nasce a VOGEL-K. Uma empresa iniciando sua
+                  trajetória, mas que carrega uma bagagem construída ao longo de
+                  décadas de vivência artística, técnica e humana. Jovem como
+                  marca, mas madura em essência, a VOGEL-K nasce preparada para
+                  produzir resultados significativos, unindo sensibilidade
+                  criativa, comprometimento e visão estratégica.
+                </p>
+                <p>
+                  Para quem deposita confiança no início dessa jornada, a
+                  VOGEL-K oferece mais do que serviços. Entrega envolvimento
+                  real, criatividade com propósito e parcerias pensadas para
+                  crescerem juntos, de forma consistente e verdadeira.
+                </p>
+              </div>
+            </div>
+            <div class="about-logo">
+              <img src="images/logo.png" alt="VOGEL-K Logo" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Marcio Section -->
+        <div class="about-section marcio-section">
+          <div class="about-content">
+            <div class="marcio-image">
+              <img src="images/marcio-west-profile.jpg" alt="Marcio West" />
+              <div class="marcio-overlay"></div>
+              <div class="marcio-caption">
+                <p>Sócio Proprietário</p>
+                <h3>Marcio West</h3>
+              </div>
+            </div>
+
+            <div class="about-text">
+              <h2>À frente da <span class="highlight">VOGEL-K</span></h2>
+              <div class="about-paragraphs">
+                <p>
+                  São 54 anos de vida construídos entre desafios, escolhas,
+                  erros, acertos e, sobretudo, aprendizado constante. Uma
+                  caminhada marcada por superação, redescobertas e pela coragem
+                  de recomeçar sempre que foi necessário. A busca por
+                  conhecimento e crescimento nunca foi um ponto de chegada, mas
+                  um movimento contínuo, impulsionado pela curiosidade, pela
+                  arte e pela vontade de evoluir como ser humano e como criador.
+                </p>
+                <p>
+                  A arte sempre esteve presente como linguagem e refúgio. São
+                  mais de 40 anos de envolvimento com a música, cinco anos de
+                  experiência com fotografia e, mais recentemente, a imersão na
+                  produção audiovisual, onde novas possibilidades se abrem e
+                  novas histórias começam a ser contadas. Cada fase trouxe
+                  aprendizados únicos, lapidando sensibilidade, técnica e visão.
+                  Nada foi por acaso — tudo contribuiu para o olhar que hoje
+                  conecta emoção, estética e propósito.
+                </p>
+                <p>
+                  Nada disso seria possível sem uma base sólida fora do
+                  trabalho. O apoio incondicional da esposa, da família e das
+                  relações construídas ao longo da vida é o que sustenta as
+                  escolhas, fortalece nos momentos difíceis e dá segurança para
+                  seguir em frente.
+                </p>
+                <p>
+                  No fim, criar é a forma mais sincera de transformar a própria
+                  história em algo que possa tocar outras pessoas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contato">
+      <div class="container">
+        <div class="cta-content">
+          <h3>Sua história. Do jeito certo. Em foto e vídeo.</h3>
+          <p>
+            Produções visuais estratégicas que conectam, emocionam e geram
+            resultado.
+          </p>
+          <button class="btn btn-cta">Fale com a equipe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <img src="images/logo.png" alt="VOGEL-K Logo" />
+              <h4>VOGEL-K</h4>
+            </div>
+            <p>Produção Audiovisual com qualidade e criatividade.</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contato</h4>
+            <div class="contact-info">
+              <p>
+                📧
+                <a href="mailto:vogelk.audiovisual@gmail.com"
+                  >vogelk.audiovisual@gmail.com</a
+                >
+              </p>
+              <p>📱 <a href="tel:+5541991067398">(41) 99106-7398</a></p>
+              <p>
+                💬
+                <a href="https://wa.me/5541991067398" target="_blank"
+                  >WhatsApp</a
+                >
+              </p>
+              <p>
+                📸
+                <a
+                  href="https://www.instagram.com/vogelk_audiovisual?igsh=ZDV2anZ2bG9idDM4"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 VOGEL-K Produção Audiovisual. Todos os direitos
+            reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
