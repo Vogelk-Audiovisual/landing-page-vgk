@@ -8,7 +8,7 @@ const portfolioData = [
     { id: 1, category: 'fotografia', src: 'images/nic-02.jpeg', title: 'Paisagem Cinematográfica' },
     { id: 2, category: 'fotografia', src: 'images/onibus_curitiba.jpeg', title: 'Arquitetura Urbana' },
     { id: 3, category: 'fotografia', src: 'images/img_1682.jpg', title: 'Retrato Profissional' },
-    { id: 4, category: 'fotografia', src: 'images/paisagem-05.JPEG', title: 'Detalhe da Natureza' },
+    { id: 4, category: 'fotografia', src: 'images/paisagem_praia.jpeg', title: 'Detalhe da Natureza' },
     { id: 5, category: 'fotografia', src: 'images/Tibagi-Guartelá-276.jpg', title: 'Fotografia de Rua' },
     { id: 31, category: 'fotografia', src: 'images/publico-01.jpeg', title: 'Fotografia Lifestyle' },
     
